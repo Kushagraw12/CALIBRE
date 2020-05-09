@@ -40,12 +40,21 @@ body{
 }
 
 .jumbotron{
+    margin-left: 110px;
+    align-self: center;
     text-align: center;
     padding: 30px;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     font-family: fantasy;
+    color: #f7f7f7;
+    width: 1300px;
 }
 
+.footer {
+    background-color: #8bd3d8;
+    margin: 0px auto;
+    padding: 20 px 0px 20px 0px;    
+}
 
 
 
