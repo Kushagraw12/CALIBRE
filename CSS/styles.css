@@ -35,9 +35,15 @@ body{
 
 .row-content{
     margin: 0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
+    padding: 50px 0px 50px 0px;  
     min-height: 400px;
+}
+
+.jumbotron{
+    text-align: center;
+    padding: 30px;
+    background-color: aqua;
+    font-family: fantasy;
 }
 
 
