@@ -1,15 +1,14 @@
 body{
-    
+    background-image: linear-gradient(rgb(255, 255, 255), #f7f7f7)
 }
 
 .navbar-light{
-    background-color: aqua;
+    background-color: rgb(175, 174, 174);
 }
 
 .head{
     font-size: 30px;
-    font-weight: 300;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .carousel-item{
@@ -25,8 +24,8 @@ body{
 }
 
 .carousel{
-    background: #285961;
-
+    background-image: linear-gradient(to bottom right, #285961, #389691);
+    margin-left: 0px auto;
 }
 
 .row-header{
@@ -43,22 +42,22 @@ body{
 .jumbotron{
     text-align: center;
     padding: 30px;
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(#000, #333);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f7f7f7;
-    font-size: 20px;
-    
+    font-size: 20px;  
+    width: 1120px;  
 }
 
 .footer {
-    background-color: #8bd3d8;
+    background-color: rgb(175, 174, 174);
     margin: 0px auto;
     padding: 0px 0px 0px 0px;  
     padding:30px; 
 }
 
 .navbar{
-    height: 85px;
+    height: 70px;
 }
 
 .pink{
@@ -70,10 +69,17 @@ h1{
     text-align: center;
     padding: 50px 0px 50px 0px;
 }
+
+.card{
+    box-shadow: 4px 4px #333;
+}
+
 .card-title{
     font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid #333;
 }
+
 .card-text{
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -88,9 +94,20 @@ h1{
     margin: 20px;
 }
 
+.jumbotron img{
+    padding-top: 150px;
+    align-self: center;
+}
 
+.jumbotron h1{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #285961;
+    font-family: serif;
+}
 
-
-
-
+.news-component h1{
+    border-bottom: 2px groove #333;
+    padding-bottom: 20px;
+    font-family: serif;
+}
 
