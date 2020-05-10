@@ -68,6 +68,18 @@ body{
         padding-top: 150px;
         align-self: center;
     }
+    .navbar{
+        height:90px;
+    }
+}
+
+@media(max-width:500px){
+    .navbar-brand{
+        margin-left: 0px auto;
+    }
+    .navbar-toggler{
+        margin-top: 0px auto;
+    }
 }
 
 .pink{
