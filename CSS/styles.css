@@ -4,6 +4,15 @@ body{
 
 .navbar-light{
     background-color: rgb(175, 174, 174);
+    
+}
+.nav-item{
+    text-decoration: none;
+}
+.nav-item:hover{
+    background-color: lightgrey;
+    transition: 0.75s;
+
 }
 
 .head{
@@ -14,6 +23,7 @@ body{
 .carousel-item{
     height: 400px;
     
+    
 }
 
 .carousel-item img{
@@ -21,6 +31,7 @@ body{
     top: 0;
     left: 0;
     min-height: 400px;
+    
 }
 
 .carousel{
@@ -111,5 +122,13 @@ h1{
     border-bottom: 2px groove #333;
     padding-bottom: 20px;
     font-family: serif;
+}
+
+.btn-facebook:hover,
+.btn-linkedin:hover,
+.btn-twitter:hover
+{
+    background-color: lightgrey;
+    transition: 0.5s;
 }
 
