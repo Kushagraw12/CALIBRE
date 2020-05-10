@@ -10,19 +10,16 @@ body{
     text-decoration: none;
 }
 .nav-item:hover{
-    background-color: lightgrey;
+    background-color: rgb(206, 193, 193);
     transition: 0.75s;
-
 }
 
 .head{
-    font-size: 30px;
+    font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 .carousel-item{
     height: 400px;
-    
     
 }
 
@@ -67,10 +64,6 @@ body{
 }
 
 @media(min-width:500px){
-    .navbar{
-        height: 70px;
-    }
-
     .jumbotron img{
         padding-top: 150px;
         align-self: center;
@@ -128,7 +121,7 @@ h1{
 .btn-linkedin:hover,
 .btn-twitter:hover
 {
-    background-color: lightgrey;
+    background-color: rgb(206, 193, 193);
     transition: 0.5s;
 }
 
