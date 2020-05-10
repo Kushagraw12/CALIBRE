@@ -46,7 +46,6 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f7f7f7;
     font-size: 20px;  
-    width: 1120px;  
 }
 
 .footer {
@@ -56,8 +55,15 @@ body{
     padding:30px; 
 }
 
-.navbar{
-    height: 70px;
+@media(min-width:500px){
+    .navbar{
+        height: 70px;
+    }
+
+    .jumbotron img{
+        padding-top: 150px;
+        align-self: center;
+    }
 }
 
 .pink{
@@ -94,10 +100,6 @@ h1{
     margin: 20px;
 }
 
-.jumbotron img{
-    padding-top: 150px;
-    align-self: center;
-}
 
 .jumbotron h1{
     padding-bottom: 20px;
