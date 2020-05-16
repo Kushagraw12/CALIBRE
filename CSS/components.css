@@ -1,0 +1,142 @@
+body{
+    background-image: linear-gradient(rgb(255, 255, 255), #f7f7f7);
+}
+
+.navbar-light{
+    background-color: rgb(175, 174, 174);
+    
+}
+.nav-item{
+    text-decoration: none;
+}
+.nav-item:hover{
+    background-color: rgb(206, 193, 193);
+    transition: 0.75s;
+}
+
+.head{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-item{
+    height: 400px;
+    
+}
+
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+    
+}
+
+.carousel{
+    background-image: linear-gradient(to bottom right, #285961, #389691);
+    margin-left: 0px auto;
+}
+
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;  
+    min-height: 400px;
+}
+
+.footer {
+    background-color: rgb(175, 174, 174);
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;  
+    padding:30px; 
+}
+
+@media(min-width:500px){
+    .jumbotron img{
+        padding-top: 150px;
+        align-self: center;
+    }
+    .navbar{
+        height:60px;
+    }
+    .m{
+        margin-left: 650px;
+    }
+    .card{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:500px){
+    .navbar-brand{
+        margin-left: 0px auto;
+    }
+    .navbar-toggler{
+        margin-top: 0px auto;
+    }
+}
+
+.pink{
+    background-color: pink;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.card{
+    box-shadow: 5px 5px #222;
+}
+
+.card-title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.card-text{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-body{
+    background-color: whitesmoke;
+}
+
+
+.row-card{
+    padding: 10px 10px 20px 10px;
+    margin: 20px;
+}
+
+
+.jumbotron h1{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #285961;
+    font-family: serif;
+}
+
+.news-component h1{
+    border-bottom: 2px groove #333;
+    padding-bottom: 20px;
+    font-family: serif;
+}
+
+.btn-facebook:hover,
+.btn-linkedin:hover,
+.btn-twitter:hover
+{
+    background-color: rgb(206, 193, 193);
+    transition: 0.5s;
+}
+
+.jumnotron{
+    padding: 30px;
+}
