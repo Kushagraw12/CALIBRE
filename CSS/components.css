@@ -55,7 +55,7 @@ body{
     padding:30px; 
 }
 
-@media(min-width:500px){
+@media(min-width:1400px){
     .jumbotron img{
         padding-top: 150px;
         align-self: center;
@@ -64,8 +64,19 @@ body{
     .m{
         margin-left: 650px;
     }
-    .card{
+    .cardn{
         margin-top: 30px;
+        height: 150px;
+    }
+    .cnb{
+        height: 149px;
+    }
+    .carousel{
+        width: 1000px;
+        margin-left: 70px;
+    }
+    .text-muted{
+        padding-left: 00px;
     }
 }
 
@@ -103,7 +114,7 @@ h1{
 }
 
 .card-text{
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -158,3 +169,11 @@ h1{
     font-size: 11px;
 }
 
+.modal-body{
+    color: #333;
+    font-size: 18px;
+}
+.modal-header{
+    background-color: #26565c;
+    color: #f7f7f7;
+}
