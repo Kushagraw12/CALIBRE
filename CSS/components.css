@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(rgb(255, 255, 255), #f7f7f7);
+    
 }
 
 .navbar-light{
@@ -59,9 +60,7 @@ body{
         padding-top: 150px;
         align-self: center;
     }
-    .navbar{
-        height:60px;
-    }
+    
     .m{
         margin-left: 650px;
     }
@@ -90,11 +89,13 @@ h1{
 }
 
 .card{
-    box-shadow: 5px 5px #222;
+    box-shadow: 2px 2px #222;
+    margin-bottom: 50px;
+    
 }
 
 .card-title{
-    margin-top: 20px;
+    padding: 20px 10px 10px 10px;
     text-align: center;
     font-size: 28px;
     font-family: 'Times New Roman', Times, serif;
@@ -119,8 +120,8 @@ h1{
 
 .jumbotron h1{
     padding-bottom: 20px;
-    border-bottom: 2px solid #285961;
-    font-family: serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 550;
 }
 
 .news-component h1{
@@ -137,7 +138,23 @@ h1{
     transition: 0.5s;
 }
 
-.jumnotron{
-    padding: 30px;
+.jumbotron{
+    padding: 30px 70px 30px 70px;
     background-color: #f7f7f7;
 }
+
+.publish-date-paper{
+    font-size: 10px;
+    text-align: center;
+}
+
+.paper-title{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-muted{
+    font-size: 11px;
+}
+

@@ -68,9 +68,7 @@ body{
         padding-top: 150px;
         align-self: center;
     }
-    .navbar{
-        height:90px;
-    }
+    
 }
 
 @media(max-width:500px){

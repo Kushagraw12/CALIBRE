@@ -1,22 +1,30 @@
 {
   "name": "calibre",
   "version": "1.0.0",
-  "description": "Calibre",
+  "description": "",
   "main": "index.html",
-  "dependencies": {
-    "bootstrap": "^4.0.0",
-    "bootstrap-social": "^5.1.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
-  },
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  },
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "author": "\"Kushagra Wadhwa\"",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushagraw12/CALIBRE.git"
+  },
+  "author": "Anurag Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kushagraw12/CALIBRE/issues"
+  },
+  "homepage": "https://github.com/Kushagraw12/CALIBRE#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-icons": "^1.0.0-alpha3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
 }
