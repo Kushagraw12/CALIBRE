@@ -19,9 +19,10 @@
   padding-top: 20px;
   padding-right: 30px;
   width: 50%;
-  background-image: url("/assets/ml-bg.jpg");
+  background-image: url(/assets/mbl.jpg);
   color: #fff;
 }
+
 .pop-heading {
   font-family: "Poppins", sans-serif;
 }
