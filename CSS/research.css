@@ -124,7 +124,7 @@
 }
 
 .org-view:hover {
-  background: #00558e;
+  background: #04163d;
 }
 .card-org {
   border-radius: 16px;
@@ -162,19 +162,6 @@
   color: #3498db;
 }
 
-.bx-shadow {
-  box-shadow: 10px 10px #333;
-}
-
-.bs-shadow {
-  box-shadow: 0px 0px #333;
-  border-bottom: 5px solid #333333;
-}
-
-.as-shadow {
-  box-shadow: 4px 4px #333;
-}
-
 .b-b {
   border-bottom: 0.5px solid #333;
   padding-top: 5px;
@@ -196,7 +183,7 @@
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  box-shadow: 1px 1px 5px #e4e4e4;
+  box-shadow: 5px 5px rgb(175, 174, 174);
 }
 
 .card-top-row {
