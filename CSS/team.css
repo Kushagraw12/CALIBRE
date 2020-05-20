@@ -1,0 +1,111 @@
+body{
+    background-image: linear-gradient(rgb(255, 255, 255), #f7f7f7);
+    
+}
+
+.navbar-light{
+    background-color: rgb(175, 174, 174);
+    
+}
+.nav-item{
+    text-decoration: none;
+}
+.nav-item:hover{
+    background-color: rgb(206, 193, 193);
+    transition: 0.75s;
+}
+
+.head{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-item{
+    height: 400px;
+    
+}
+
+.footer {
+    background-color: rgb(175, 174, 174);
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;  
+    padding:30px; 
+}
+
+@media(min-width:1400px){
+    .jumbotron img{
+        padding-top: 150px;
+        align-self: center;
+    }
+    
+    .m{
+        margin-left: 650px;
+    }
+    .cardn{
+        margin-top: 30px;
+        height: 150px;
+    }
+    .cnb{
+        height: 149px;
+    }
+    
+}
+
+@media(max-width:500px){
+    .navbar-brand{
+        margin-left: 0px auto;
+    }
+    .navbar-toggler{
+        margin-top: 0px auto;
+    }
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.card{
+    box-shadow: 2px 2px #222;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+.card-title{
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.card-text{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.card-body{
+    background-color: whitesmoke;
+    
+}
+
+.btn-facebook:hover,
+.btn-linkedin:hover,
+.btn-twitter:hover
+{
+    background-color: rgb(206, 193, 193);
+    transition: 0.5s;
+}
+
+a{
+    color: black;
+}
+
+.image-size{
+    height: 275px;
+    
+}
+
