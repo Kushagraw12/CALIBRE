@@ -116,10 +116,12 @@ h1{
 .card-text{
     font-size: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 
 .card-body{
     background-color: whitesmoke;
+    
 }
 
 
@@ -177,3 +179,4 @@ h1{
     background-color: #26565c;
     color: #f7f7f7;
 }
+
