@@ -1,0 +1,112 @@
+body{
+    background-color: #d9d9d9;
+    background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);    
+}
+
+.navbar-light{
+    background-color: rgb(175, 174, 174);
+    
+}
+.nav-item{
+    text-decoration: none;
+    color:black;
+    font-weight: 650;
+}
+.nav-item:hover{
+    background-color: rgb(206, 193, 193);
+    transition: 0.75s;
+}
+
+.head{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-item{
+    height: 400px;
+    
+}
+
+.footer {
+    background-color: rgb(175, 174, 174);
+    padding: 15px 0px 0px 0px;  
+
+}
+
+@media(min-width:1400px){
+    .m{
+        margin-left: 650px;
+    }
+    .cardn{
+        margin-top: 30px;
+        height: 150px;
+    }
+    .cnb{
+        height: 149px;
+    }
+    
+}
+
+@media(max-width:500px){
+    .navbar-brand{
+        margin-left: 0px auto;
+    }
+    .navbar-toggler{
+        margin-top: 0px auto;
+    }
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.card{
+    box-shadow: 2px 2px #222;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.card-title{
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.card-text{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.card-body{
+    background-color: whitesmoke;
+    
+}
+
+.btn-facebook:hover,
+.btn-linkedin:hover,
+.btn-twitter:hover
+{
+    background-color: rgb(206, 193, 193);
+    transition: 0.5s;
+}
+
+a{
+    color: black;
+}
+
+.image-size{
+    height: 275px;
+    
+}
+
+.college-name{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
