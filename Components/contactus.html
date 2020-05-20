@@ -88,48 +88,94 @@
     <!-- MAIN -->
 
     <div class="container">
-      <div class="form">
+      <div class="col-7 col-sm-5">
+        <h2 class="b-d">Our Address</h2>
+        <address>
+          <h4 class="mt-3">DELHI TECHNOLOGICAL UNIVERSITY</h4>
+          <br />
+          NEW DELHI<br />
+          <img src="/SVG/phone-alt.svg" height="15" />Tel.: 0000000000<br />
+          <img src="/SVG/envelope.svg" height="15" /> Email:
+          <a href="mailto:dtu@dtu.comt">dtu@dtu.com</a>
+        </address>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="form col-7 col-sm-5">
         <form>
           <div class="form-group form-header">
-            <h2 class="b-b"><u>Feedback Please</u></h2>
+            <h2 class="b-d mt-5">Leave us a Message</h2>
           </div>
           <div class="form-group form-body">
             <ul class="inline">
               <li class="form-list form-item">
-                <p class="col-4 col-md-4 col-xs-12">
+                <p class="col-8">
                   Your name:
                   <br />
                   <input
                     type="text"
                     placeholder="Name Please"
-                    class="col-md-7 col-xs-12"
+                    class="col inline"
                   />
                 </p>
               </li>
               <li class="form-list form-item">
-                <p class="col-4 col-md-4 col-sm-12">
-                  Your phone number:
-                  <input
-                    type="tel"
-                    placeholder="Contact number"
-                    class="col-7 col-md-7 col-xs-12"
-                  />
+                <p class="col-8">
+                  Your email id:
+                  <input type="email" placeholder="Email Id" class="col" />
                 </p>
               </li>
               <li class="form-list form-item">
-                <p class="col-4 col-md-4">
-                  Feedback:
+                <p class="col-8">
+                  Message:
                 </p>
-                <textarea
-                  placeholder="Feedback"
-                  class="col-6 col-md-6"
-                ></textarea>
+                <textarea placeholder="Your Message" class="col-12"></textarea>
               </li>
             </ul>
+            <div class="justify-content-center text-center">
+              <div class="form-group form-item">
+                <button class="submit btn btn-primary" data-toggle="submit">
+                  Submit
+                </button>
+              </div>
+            </div>
           </div>
         </form>
       </div>
     </div>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="col-12 col-sm-12 mr-auto">
+          <div class="text-center">
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="https://www.facebook.com/dtutimes/"
+              ><img src="/SVG/facebook-f.svg" height="30"
+            /></a>
+            <a
+              class="btn btn-social-icon btn-linkedin"
+              href="https://www.linkedin.com/company/calibre-dtu/about/"
+              ><img src="/SVG/linkedin-in.svg" height="30"
+            /></a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+              ><img src="/SVG/twitter.svg" height="30"
+            /></a>
+            <a class="btn btn-social-icon" href="mailto:"
+              ><i class="fa fa-envelope-o fa-lg"></i
+            ></a>
+            <div class="row justify-content-center">
+              <div class="col-auto mt-4">
+                <p class="text-center">© Copyright 2020 CALIBRE DTU</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery, Popper.js, Bootstrap JS. -->
     <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>

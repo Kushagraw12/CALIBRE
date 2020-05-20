@@ -1,179 +1,182 @@
-body{
-    background-image: linear-gradient(rgb(255, 255, 255), #f7f7f7);
-    
+body {
+  background-image: linear-gradient(rgb(255, 255, 255), #f7f7f7);
 }
 
-.navbar-light{
-    background-color: rgb(175, 174, 174);
-    
+.navbar-light {
+  background-color: rgb(175, 174, 174);
 }
-.nav-item{
-    text-decoration: none;
+.nav-item {
+  text-decoration: none;
 }
-.nav-item:hover{
-    background-color: rgb(206, 193, 193);
-    transition: 0.75s;
-}
-
-.head{
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.carousel-item{
-    height: 400px;
-    
+.nav-item:hover {
+  background-color: rgb(206, 193, 193);
+  transition: 0.75s;
 }
 
-.carousel-item img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 400px;
-    
+.head {
+  font-size: 32px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.carousel-item {
+  height: 400px;
 }
 
-.carousel{
-    background-image: linear-gradient(to bottom right, #285961, #389691);
-    margin-left: 0px auto;
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
 }
 
-.row-header{
-    margin: 0px auto;
-    padding: 0px auto;
+.carousel {
+  background-image: linear-gradient(to bottom right, #285961, #389691);
+  margin-left: 0px auto;
 }
 
-.row-content{
-    margin: 0px auto;
-    padding: 50px 0px 50px 0px;  
-    min-height: 400px;
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  min-height: 400px;
 }
 
 .footer {
-    background-color: rgb(175, 174, 174);
-    margin: 0px auto;
-    padding: 0px 0px 0px 0px;  
-    padding:30px; 
+  background-color: rgb(175, 174, 174);
+  margin: 0px auto;
+  padding: 0px 0px 0px 0px;
+  padding: 30px;
 }
 
-@media(min-width:1400px){
-    .jumbotron img{
-        padding-top: 150px;
-        align-self: center;
-    }
-    
-    .m{
-        margin-left: 650px;
-    }
-    .cardn{
-        margin-top: 30px;
-        height: 150px;
-    }
-    .cnb{
-        height: 149px;
-    }
-    .carousel{
-        width: 1000px;
-        margin-left: 35px;
-    }
-    .text-muted{
-        padding-left: 00px;
-    }
+@media (min-width: 1400px) {
+  .jumbotron img {
+    padding-top: 150px;
+    align-self: center;
+  }
+
+  .m {
+    margin-left: 650px;
+  }
+  .cardn {
+    margin-top: 30px;
+    height: 150px;
+  }
+  .cnb {
+    height: 149px;
+  }
+  .carousel {
+    width: 1000px;
+    margin-left: 35px;
+  }
+  .text-muted {
+    padding-left: 00px;
+  }
 }
 
-@media(max-width:500px){
-    .navbar-brand{
-        margin-left: 0px auto;
-    }
-    .navbar-toggler{
-        margin-top: 0px auto;
-    }
+@media (max-width: 500px) {
+  .navbar-brand {
+    margin-left: 0px auto;
+  }
+  .navbar-toggler {
+    margin-top: 0px auto;
+  }
 }
 
-.pink{
-    background-color: pink;
+.pink {
+  background-color: pink;
 }
 
-h1{
-    font-size: 40px;
-    text-align: center;
-    padding: 50px 0px 50px 0px;
+h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 0px 50px 0px;
 }
 
-.card{
-    box-shadow: 2px 2px #222;
-    margin-bottom: 50px;
-    
+.card {
+  box-shadow: 2px 2px #222;
+  margin-bottom: 50px;
 }
 
-.card-title{
-    padding: 20px 10px 10px 10px;
-    text-align: center;
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
+.card-title {
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
 }
 
-.card-text{
-    font-size: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.card-text {
+  font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.card-body{
-    background-color: whitesmoke;
+.card-body {
+  background-color: whitesmoke;
 }
 
-
-.row-card{
-    padding: 10px 10px 20px 10px;
-    margin: 20px;
+.row-card {
+  padding: 10px 10px 20px 10px;
+  margin: 20px;
 }
 
-
-.jumbotron h1{
-    padding-bottom: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 550;
+.jumbotron h1 {
+  padding-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 550;
 }
 
-.news-component h1{
-    border-bottom: 2px groove #333;
-    padding-bottom: 20px;
-    font-family: serif;
+.news-component h1 {
+  border-bottom: 2px groove #333;
+  padding-bottom: 20px;
+  font-family: serif;
 }
 
 .btn-facebook:hover,
 .btn-linkedin:hover,
-.btn-twitter:hover
-{
-    background-color: rgb(206, 193, 193);
-    transition: 0.5s;
+.btn-twitter:hover {
+  background-color: rgb(206, 193, 193);
+  transition: 0.5s;
 }
 
-.jumbotron{
-    padding: 30px 70px 30px 70px;
-    background-color: #f7f7f7;
+.jumbotron {
+  padding: 30px 70px 30px 70px;
+  background-color: #f7f7f7;
 }
 
-.publish-date-paper{
-    font-size: 10px;
-    text-align: center;
+.publish-date-paper {
+  font-size: 10px;
+  text-align: center;
 }
 
-.paper-title{
-    font-weight: 500;
-    font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.paper-title {
+  font-weight: 500;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.text-muted{
-    font-size: 11px;
+.text-muted {
+  font-size: 11px;
 }
 
-.modal-body{
-    color: #333;
-    font-size: 18px;
+.modal-body {
+  color: #333;
+  font-size: 18px;
 }
-.modal-header{
-    background-color: #26565c;
-    color: #f7f7f7;
+.modal-header {
+  background-color: #26565c;
+  color: #f7f7f7;
+}
+
+textarea {
+  height: 100px;
+}
+
+.b-d {
+  border-bottom: 2px solid #333;
 }
