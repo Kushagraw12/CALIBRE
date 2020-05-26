@@ -55,7 +55,7 @@ body {
 }
 
 .footer {
-  background-color: rgb(175, 174, 174);
+  width: 100%;
   padding: 15px 0px 0px 0px;
 }
 
@@ -84,7 +84,7 @@ h1 {
   text-align: center;
   padding: 50px 0px 50px 0px;
 }
-
+/*
 .card {
   box-shadow: 4px 4px #333;
 }
@@ -103,7 +103,7 @@ h1 {
 .card-body {
   background-color: whitesmoke;
 }
-
+*/
 .row-card {
   padding: 10px 10px 20px 10px;
   margin: 20px;
@@ -131,4 +131,18 @@ h1 {
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* Materialize CSS */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.hoho:hover {
+  color: #f7f7f7;
 }
