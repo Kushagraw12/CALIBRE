@@ -33,12 +33,12 @@ body {
 .jumbotron {
   text-align: center;
   padding: 30px;
-  background-color: #FFF0F5;
+  background-color: #fff0f5;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
   font-size: 20px;
 }
-.carousel{
+.carousel {
   background-color: black;
   height: 500px;
 }
@@ -130,7 +130,7 @@ body {
 main {
   flex: 1 0 auto;
 }
-.hoho{
+.hoho {
   margin-top: 7px;
 }
 .hoho:hover {
@@ -138,29 +138,34 @@ main {
   background-color: grey;
 }
 
-nav{
+nav {
   height: 80px;
   background-color: darkslategrey;
   color: white;
 }
 
-.page-footer{
+.page-footer {
   background-color: darkslategrey;
   color: #d9d9d9;
 }
 
-.navbar-brand{
-  font-family: 'Roboto Slab', serif;
+.navbar-brand {
+  font-family: "Roboto Slab", serif;
   font-size: 30px;
 }
 
-.head-about{
+.head-about {
   font-size: 35px;
 }
-.head-news{
+.head-news {
   font-size: 40px;
+  border-bottom: 1px solid #333;
 }
 
-.container{
+.container {
   padding-left: 1px;
+}
+
+.card {
+  height: 200px;
 }
