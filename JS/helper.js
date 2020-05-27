@@ -8,3 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
 $(document).ready(function () {
   $(".sidenav").sidenav();
 });
+
+$('.carousel').carousel({
+  interval: 2000
+})
+
