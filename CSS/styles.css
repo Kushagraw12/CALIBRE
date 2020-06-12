@@ -3,8 +3,12 @@ body {
   background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
 }
 
+.block{
+  background-image: url(https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png);
+}
+
 .navbar-light {
-  background-color: rgb(175, 174, 174);
+  background-image: inherit;
 }
 .nav-item {
   text-decoration: none;
@@ -39,8 +43,9 @@ body {
   font-size: 20px;
 }
 .carousel {
-  background-color: black;
+  background-image: inherit;
   height: 500px;
+  ba
 }
 .footer {
   width: 100%;
