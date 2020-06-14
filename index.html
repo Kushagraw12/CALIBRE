@@ -34,12 +34,61 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../CSS/sidenav.css" />
     <link rel="stylesheet" href="/CSS/test.css" />
     <title>CALIBRE-DTU</title>
   </head>
   <body>
+    <div class="wrapper">
+      <div class="top_navbar">
+        <div class="hamburger">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+        <div class="top_menu">
+          <div class="logo">CALIBRE-DTU</div>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="sidebar">
+          <ul>
+            <li>
+              <a href="#" class="active">
+                <span class="icon"><i class="fas fa-home"></i></span>
+                <span class="title">Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-search"></i></span>
+                <span class="title">Research</span></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-scroll"></i></span>
+                <span class="title">Papers</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-user"></i></span>
+                <span class="title">Team</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-newspaper"></i></span>
+                <span class="title">News & Events</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-      <section id="header">
+    <!--
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="#">CALIBRE-DTU</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,7 +116,10 @@
             <button class="btn btn-primary login">Login</button>
           </div>
         </nav>
+-->
 
+    <div class="main_container">
+      <section id="header">
         <div class="jumbotron text-center head-jumbo">
           <h1 class="head-title">
             CALIBRE-DTU!
@@ -82,7 +134,6 @@
           </p>
           <button class="btn btn-primary btn-outline-dark">Learn More</button>
         </div>
-
       </section>
 
       <!-- Next Section -->
@@ -92,48 +143,54 @@
         </span>
         <div class="row">
           <div class="col s12 m6">
-            <div class="card">
-              
-            </div>
+            <div class="card"></div>
           </div>
           <div class="col s12 m6">
             <div class="container news-box">
               <span class="top-news-text">
                 Machine Learning / Tue 10 JUN 2020
-              </span> <br>
-              <a href="#" class="news-link">Machine Learning is exciting. Come have a look into this.</a>
-            </div>
-            
-            <div class="container news-box">
-              <span class="top-news-text">
-                Machine Learning / Tue 10 JUN 2020
-              </span> <br>
-              <a href="#" class="news-link">Machine Learning is exciting. Come have a look into this.</a>
+              </span>
+              <br />
+              <a href="#" class="news-link"
+                >Machine Learning is exciting. Come have a look into this.</a
+              >
             </div>
 
             <div class="container news-box">
               <span class="top-news-text">
                 Machine Learning / Tue 10 JUN 2020
-              </span> <br>
-              <a href="#" class="news-link">Machine Learning is exciting. Come have a look into this.</a>
+              </span>
+              <br />
+              <a href="#" class="news-link"
+                >Machine Learning is exciting. Come have a look into this.</a
+              >
             </div>
 
             <div class="container news-box">
               <span class="top-news-text">
                 Machine Learning / Tue 10 JUN 2020
-              </span> <br>
-              <a href="#" class="news-link">Machine Learning is exciting. Come have a look into this.</a>
+              </span>
+              <br />
+              <a href="#" class="news-link"
+                >Machine Learning is exciting. Come have a look into this.</a
+              >
+            </div>
+
+            <div class="container news-box">
+              <span class="top-news-text">
+                Machine Learning / Tue 10 JUN 2020
+              </span>
+              <br />
+              <a href="#" class="news-link"
+                >Machine Learning is exciting. Come have a look into this.</a
+              >
             </div>
           </div>
-          
         </div>
-        
       </section>
 
       <section>
-        <div class="jumbotron center middle-jumbo">
-
-        </div>
+        <div class="jumbotron center middle-jumbo"></div>
       </section>
 
       <section class="video">
@@ -148,21 +205,32 @@
                 Machine Learning integrated with Augmented Reality
               </p>
               <p class="video-des">
-                This can be a very amazing integration and would be one of the most innovative idea. China’s decision to impose tariffs on Australian barley and restrictions on Australian beef imports highlights the risks that deteriorating bilateral relations could impose on Australian corporates.
+                This can be a very amazing integration and would be one of the
+                most innovative idea. China’s decision to impose tariffs on
+                Australian barley and restrictions on Australian beef imports
+                highlights the risks that deteriorating bilateral relations
+                could impose on Australian corporates.
               </p>
-              <button class="btn btn-primary btn-outline-light">Learn More</button>
+              <button class="btn btn-primary btn-outline-light">
+                Learn More
+              </button>
             </div>
           </div>
 
           <div class="col-md-6">
             <div class="container">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           </div>
         </div>
       </section>
+    </div>
 
     <!-- jQuery, Popper.js, Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -172,6 +240,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <script src="./JS/helper.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./JS/sidenav.js"></script>
     <script src="./JS/script-component.js"></script>
   </body>
 </html>
