@@ -19,7 +19,8 @@ body {
   height: 60px;
   display: flex;
   /*position: fixed;*/
-  top: 10px;
+  z-index: 9999;
+  top: 0px;
 }
 
 .top_navbar .hamburger {

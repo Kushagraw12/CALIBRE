@@ -36,11 +36,14 @@
     />
     <link rel="stylesheet" href="../CSS/sidenav.css" />
     <link rel="stylesheet" href="/CSS/test.css" />
+    <link rel="stylesheet" href="/CSS/footer.css" />
     <title>CALIBRE-DTU</title>
   </head>
+
+
   <body>
     <div class="wrapper">
-      <div class="top_navbar">
+      <div class="top_navbar" id='navbar'>
         <div class="hamburger">
           <div class="one"></div>
           <div class="two"></div>
@@ -120,7 +123,7 @@
 
     <div class="main_container">
       <section id="header">
-        <div class="jumbotron text-center head-jumbo">
+        <div class="jumbotron text-center head-jumbo" id='top'>
           <h1 class="head-title">
             CALIBRE-DTU!
           </h1>
@@ -230,6 +233,51 @@
           </div>
         </div>
       </section>
+
+      <!-- FOOTER -->
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12 text-center">
+              <h5 class="white-text bb">CALIBRE-DTU</h5>
+              <p class="grey-text text-lighten-4">
+                <b> DELHI TECHNOLOGICAL UNIVERSITY</b>
+                <br />
+                Shahbad Daulatpur, Main Bawana Road<br> NEW DELHI-110042
+                <br />
+                INDIA
+              </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">CONNECT WITH US</h5>
+              <ul class='inline'>
+                <li>
+                  <a
+                    class="grey-text text-lighten-3 ml-4"
+                    href="https://www.linkedin.com/company/calibre-dtu/about/" target='_blank'
+                    ><img src="./SVG/linkedin.svg" height="50" width='35'></img
+                  ></a>
+                
+                  <a class="grey-text text-lighten-3" href="https://www.instagram.com/d_coder_dtu/?hl=en" target='_blank'><img src="./SVG/instagram.svg" height="50" width='35'></img
+                    ></a>
+                
+                  <a class="grey-text text-lighten-3" href="https://www.facebook.com/Team-D_coder-1511383655668364" target='_blank'><img src="./SVG/facebook.svg" height="50" width='35'></img
+                    ></a>
+                
+                  <a class="grey-text text-lighten-3" href="https://wa.me/919205104557" target='_blank'><img src="./SVG/whatsapp.svg" height="50" width='35'></img
+                    ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            © 2020 Copyright CALIBRE-DTU
+            <a class="grey-text text-lighten-4 right" href="#navbar">BACK TO TOP<img src="./SVG/top.svg" height="30" width='35'></img></a>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- jQuery, Popper.js, Bootstrap JS. -->
@@ -239,10 +287,13 @@
     <!-- JS FOR MATERIALIZE CSS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <script src="./JS/helper.js"></script>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./JS/sidenav.js"></script>
     <script src="./JS/script-component.js"></script>
+    <script src="./JS/navbar.js"></script>
   </body>
 </html>
