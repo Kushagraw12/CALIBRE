@@ -244,7 +244,7 @@ button:active,
 }
 
 .slider-form [type="text"]:focus {
-  border: 3px solid #000;
+  border: 5px ridge #000;
 }
 
 .slider-form button,
