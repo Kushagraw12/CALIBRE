@@ -34,13 +34,19 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <!-- FORM TEMPLATE -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../CSS/sidenav.css" />
     <link rel="stylesheet" href="../CSS/test.css" />
     <link rel="stylesheet" href="../CSS/footer.css" />
-    <title>CALIBRE-DTU-Collaborate-with-us</title>
+    <link rel='stylesheet' href="../CSS/contact.css" />
+    <title>CALIBRE-DTU-Contact-us</title>
   </head>
 
   <body>
+      <!-- NAVBAR -->
     <div class="wrapper">
       <div class="top_navbar" id="navbar">
         <div class="hamburger">
@@ -91,12 +97,53 @@
                 <span class="title">Collaborate with us</span>
               </a>
             </li>
+            <li>
+              <a href="#">
+                <span class="icon"><i class="fas fa-address-card"></i></span>
+                <span class="title">Contact us</span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
+    <!-- NAVBAR ENDS -->
 
-     <!-- FOOTER -->
+    <!-- FORM -->
+    <div class="container contact-form">
+        <div class="contact-image">
+           <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            <!--<img src = '../stricslogoocolour.png' height="80" width="80" alt="logo" /> -->
+        </div>
+        <form method="post">
+            <h3>Drop Us a Message</h3>
+           <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                    </div>
+                    <div class="form-group">
+                          <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+</div>
+    <!-- FROM ENDS -->
+
+
+    <!-- FOOTER -->
      <footer class="page-footer">
         <div class="container">
           <div class="row">
