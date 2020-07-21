@@ -3,7 +3,7 @@ body {
 }
 .contact-form {
   background: #fff;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 5%;
   width: 70%;
 }
@@ -12,12 +12,14 @@ body {
 }
 .contact-image {
   text-align: center;
+  padding-top: 5px;
+  margin-bottom: 0px;
 }
 .contact-image img {
   border-radius: 6rem;
   width: 11%;
   margin-top: -3%;
-  transform: rotate(29deg);
+  transform: rotate(0deg);
 }
 .contact-form form {
   padding: 14%;

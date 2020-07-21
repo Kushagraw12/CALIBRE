@@ -58,11 +58,11 @@
           <div class="logo">CALIBRE-DTU</div>
         </div>
       </div>
-      <div class="wrap">
+      <div class="wrap collapse">
         <div class="sidebar">
           <ul>
             <li>
-              <a href="../index.html" class="active">
+              <a href="../index.html">
                 <span class="icon"><i class="fas fa-home"></i></span>
                 <span class="title">Home</span></a
               >
@@ -98,7 +98,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#"  class="active">
                 <span class="icon"><i class="fas fa-address-card"></i></span>
                 <span class="title">Contact us</span>
               </a>
@@ -112,21 +112,22 @@
     <!-- FORM -->
     <div class="container contact-form">
         <div class="contact-image">
-           <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
-            <!--<img src = '../stricslogoocolour.png' height="80" width="80" alt="logo" /> -->
+           <!--<img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>-->
+            <img src = '../stricslogooblack.png' height= '160' width= '450' alt="logo" /> 
         </div>
-        <form method="post">
+        <!--<form method="post">-->
+          <form>
             <h3>Drop Us a Message</h3>
            <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" required />
                     </div>
                     <div class="form-group">
-                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required />
                     </div>
                     <div class="form-group">
-                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number (Optional)" value="" />
                     </div>
                     <div class="form-group">
                           <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
@@ -134,7 +135,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
                     </div>
                 </div>
             </div>
