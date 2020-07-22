@@ -1,0 +1,43 @@
+.desc {
+  margin-top: 5px;
+}
+
+body {
+  background: -webkit-linear-gradient(left, #5d7caa, #4b7de0, #72a0eb);
+}
+
+.card-head {
+  font-family: monospace;
+  font-size: 4rem;
+  justify-content: center;
+  align-self: center;
+  margin-left: 350px;
+}
+
+.image-size {
+  height: 400px;
+  width: 350px;
+  border: 2px ridge #000;
+}
+
+.card-text {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+footer {
+  background: -webkit-linear-gradient(top, #002060, #002050);
+}
+
+#watermark {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.5;
+  z-index: 99;
+  color: white;
+}
+
+#top {
+  border-bottom: solid #000 1px;
+}
