@@ -8,26 +8,41 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
     <link
       rel="stylesheet"
-      href="/node_modules/font-awesome/css/fontawesome.min.css"
+      href="../node_modules/font-awesome/css/fontawesome.min.css"
     />
     <link
       rel="stylesheet"
-      href="/node_modules/bootstrap-social/bootstrap-social.css"
+      href="../node_modules/bootstrap-social/bootstrap-social.css"
     />
-    <link rel="stylesheet" href="/CSS/components.css" />
-    <link href="https://css.gg/browse.css" rel="stylesheet" />
+    <!-- CDN FOR MATERIALIZE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/sidenav.css" />
+    <!-- <link rel="stylesheet" href="../CSS/test.css" /> -->
+    <link rel="stylesheet" href="../CSS/paper.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
+    <link rel="stylesheet" href="../CSS/collaborate.css" />
     <title>CALIBRE-DTU</title>
   </head>
   <body>
-    <!-- NAV-BAR -->
+    <!-- NAV-BAR
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
@@ -89,7 +104,7 @@
     <br />
     <br />
 
-    <!-- Main Body -->
+    Main Body
     <div class="jumbotron">
       <h1>Research Papers</h1>
 
@@ -256,7 +271,7 @@
 
     <!--FOOTER-->
 
-    <footer class="footer" id="footer">
+    <!-- <footer class="footer" id="footer">
       <div class="container-fluid">
           <div class="row">             
               <div class="col-md-6">
@@ -277,10 +292,219 @@
                   <p>© Copyright 2020 CALIBRE DTU</p>
          </div>
       </div>
-  </footer>
+  </footer> -->
+
+  <div class="wrapper">
+    <div class="top_navbar" id='navbar'>
+      <div class="hamburger">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+      <div class="top_menu">
+        <div class="logo"><a href="/index.html" class="brand-name">CALIBRE-DTU</a></div>
+      </div>
+    </div>
+    <div class="wrap collapse">
+      <div class="sidebar">
+        <ul>
+          <li>
+            <a href="/index.html">
+              <span class="icon"><i class="fas fa-home"></i></span>
+              <span class="title">Home</span></a
+            >
+          </li>
+          <li>
+            <a href="/Components/Research.html">
+              <span class="icon"><i class="fas fa-search"></i></span>
+              <span class="title">Research</span></a
+            >
+          </li>
+          <li>
+            <a href="/Components/papers.html"  class="active">
+              <span class="icon"><i class="fas fa-scroll"></i></span>
+              <span class="title">Papers</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Components/team.html">
+              <span class="icon"><i class="fas fa-user"></i></span>
+              <span class="title">Team</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Components/news.html">
+              <span class="icon"><i class="fas fa-newspaper"></i></span>
+              <span class="title">News & Events</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Components/collaborate.html">
+              <span class="icon"><i class="fas fa-pencil-ruler"></i></span>
+              <span class="title">Collaborate with us</span>
+            </a>
+          </li>
+          <li>
+            <a href="/Components/contact.html">
+              <span class="icon"><i class="fas fa-address-card"></i></span>
+              <span class="title">Contact us</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Main Body -->
+  <h1>Research Papers</h1>
+  <div class="card text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card-title">
+          <p class="paper-title">
+            Lorem Ipsum <br>(Title of the papers will be added here)
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Maecenas pellentesque lobortis lectus.Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Maecenas pellentesque
+            lobortis lectus, vel feugiat sapien luctus quis. Donec non
+            aliquam ante. Pellentesque habitant morbi tristique senectus et
+            netus et malesuada fames ac turpis egestas. Aenean porta nisl ac
+            molestie elementum.This is a test to test.
+          </p>
+          <p class="publish-date-paper">
+            Published On:- 23<sup>rd</sup> Oct 2020
+          </p>
+          <p class="card-text">
+            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card-title">
+          <p class="paper-title">
+            Lorem Ipsum <br>(Title of the papers will be added here)
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Maecenas pellentesque lobortis lectus.Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Maecenas pellentesque
+            lobortis lectus, vel feugiat sapien luctus quis. Donec non
+            aliquam ante. Pellentesque habitant morbi tristique senectus et
+            netus et malesuada fames ac turpis egestas. Aenean porta nisl ac
+            molestie elementum.This is a test to test.
+          </p>
+          <p class="publish-date-paper">
+            Published On:- 23<sup>rd</sup> Oct 2020
+          </p>
+          <p class="card-text">
+            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card-title">
+          <p class="paper-title">
+            Lorem Ipsum <br>(Title of the papers will be added here)
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Maecenas pellentesque lobortis lectus.Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Maecenas pellentesque
+            lobortis lectus, vel feugiat sapien luctus quis. Donec non
+            aliquam ante. Pellentesque habitant morbi tristique senectus et
+            netus et malesuada fames ac turpis egestas. Aenean porta nisl ac
+            molestie elementum.This is a test to test.
+          </p>
+          <p class="publish-date-paper">
+            Published On:- 23<sup>rd</sup> Oct 2020
+          </p>
+          <p class="card-text">
+            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card-title">
+          <p class="paper-title">
+            Lorem Ipsum <br>(Title of the papers will be added here)
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Maecenas pellentesque lobortis lectus.Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Maecenas pellentesque
+            lobortis lectus, vel feugiat sapien luctus quis. Donec non
+            aliquam ante. Pellentesque habitant morbi tristique senectus et
+            netus et malesuada fames ac turpis egestas. Aenean porta nisl ac
+            molestie elementum.This is a test to test.
+          </p>
+          <p class="publish-date-paper">
+            Published On:- 23<sup>rd</sup> Oct 2020
+          </p>
+          <p class="card-text">
+            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+  
     <!-- jQuery, Popper.js, Bootstrap JS. -->
-    <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- JS FOR MATERIALIZE CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="../JS/helper.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../JS/sidenav.js"></script>
+    <script src="../JS/script-component.js"></script>
+    <script src="../JS/navbar.js"></script>
+    <script src="../JS/collaborate.js"></script>
   </body>
 </html>

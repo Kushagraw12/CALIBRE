@@ -113,7 +113,7 @@ h1 {
   overflow: auto;
   background-size: cover;
   background-position: bottom;
-  height: 50vh;
+  height: 60vh;
   margin-top: 80px;
 }
 
@@ -129,4 +129,33 @@ h1 {
 
 .video {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
+
+.brand-name{
+  color: white;
+  text-decoration: solid;
+}
+
+.brand-name:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.grey-text{
+  margin-left: 12px;
+}
+
+h2{
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.pub{
+  height: 140px;
+  width: 140px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
